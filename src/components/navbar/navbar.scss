@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1280px;
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+    justify-content: space-between;
+    background-color: #52527a;
+    color: #fff;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media (max-width: 1279px) {
+    .navbar {
+        margin: 0 10%;
+        width: auto;
+    }
+
+}
