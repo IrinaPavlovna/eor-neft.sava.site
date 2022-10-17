@@ -22,8 +22,8 @@ function navbar() {
       transition={{ duration: 0.5 }}
     >
       <div >
-      <Link style={{marginRight:'30px'}} to="/">Главная</Link>
-      <Link to="/intro">Вводная часть</Link>
+      <Link style={{marginRight:'30px', color:'#fff'}} to="/">Главная</Link>
+      <Link style={{ color:'#fff'}} to="/intro">Вводная часть</Link>
       </div>
       <Menu>
         <MenuButton
@@ -32,8 +32,8 @@ function navbar() {
           transition="all 0.2s"
           borderRadius="md"
           borderWidth="1px"
-          _hover={{ bg: "gray.400" }}
-          _expanded={{ bg: "white.400" }}
+          _hover={{ bg: "#404069;.400" }}
+          _expanded={{ bg: "#404069.400" }}
           _focus={{ boxShadow: "outline" }}
         >
           <div style={{ display: "flex", alignItems: "center" }}>

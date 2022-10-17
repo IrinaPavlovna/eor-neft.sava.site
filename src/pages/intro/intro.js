@@ -1,5 +1,4 @@
 import React from "react";
-import { AspectRatio } from "@chakra-ui/react";
 import "./intro.scss";
 
 function intro() {
@@ -19,18 +18,20 @@ function intro() {
         учащихся.
       </p>
       <div className="intro__video">
-          <iframe
-          controls preload="none"
-            title="naftan"
-            src="https://www.youtube.com/embed/INN6d-CL6KU"
-            allowFullScreen
-          />
-          <iframe
-          controls preload="none"
-title="naftan"
-            src="https://www.youtube.com/embed/gucTe2zmJ-8"
-            allowFullScreen
-          />
+        <iframe
+          controls
+          preload="none"
+          title="naftan"
+          src="https://www.youtube.com/embed/INN6d-CL6KU"
+          allowFullScreen
+        />
+        <iframe
+          controls
+          preload="none"
+          title="naftan"
+          src="https://www.youtube.com/embed/gucTe2zmJ-8"
+          allowFullScreen
+        />
       </div>
     </div>
   );
