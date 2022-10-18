@@ -30,7 +30,7 @@ function hydrotreatingSwiper() {
       className="mySwiper"
     >
       <SwiperSlide>
-        <img src={IMG1} alt="" />
+        <img  src={IMG1} alt="" />
       </SwiperSlide>
       <SwiperSlide>
         <img src={IMG2} alt="" />
