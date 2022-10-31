@@ -2,7 +2,7 @@ import React from "react";
 import './footer.scss'
 
 function navbar() {
-  return     <footer>
+  return     <footer className="footer">
   {/* <ul class="icons">
       <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
       <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>

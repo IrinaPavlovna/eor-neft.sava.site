@@ -11,6 +11,7 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  Button,
 } from "@chakra-ui/react";
 
 function Hydrotreating() {
@@ -88,47 +89,49 @@ function Hydrotreating() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
+            <div className="hydrotreating__modal">
+            Исходный материал <a href="https://www.youtube.com/channel/UCa_ybOhOWMpVmDVohW_9LGg" target="_blank" rel="noreferrer">ПроНПЗ</a>
               <ModalComponent
                   name="Ректификационная колонна"
-                  href="https://www.youtube.com/watch?v=ODaN3yi1wl8"
+                  href="https://www.youtube.com/embed/ODaN3yi1wl8"
                 />
                 <ModalComponent
                   name="Реактор"
-                  href="https://www.youtube.com/watch?v=yo2kP_UwCZA"
+                  href="https://www.youtube.com/embed/yo2kP_UwCZA"
                 />
                 <ModalComponent
                   name="Центробежный насос"
-                  href="https://www.youtube.com/watch?v=zS2Vqel_Ymg"
+                  href="https://www.youtube.com/embed/zS2Vqel_Ymg"
                 />
                 <ModalComponent
                   name="Поршневой компрессор"
-                  href="https://www.youtube.com/watch?v=odb-E5AY3A8"
+                  href="https://www.youtube.com/embed/odb-E5AY3A8"
                 />
                 <ModalComponent
                   name="Печь цилиндрическая"
-                  href="https://www.youtube.com/watch?v=FUL-EUW2Hl4"
+                  href="https://www.youtube.com/embed/FUL-EUW2Hl4"
                 />
                 <ModalComponent
                   name="Аппарат воздушного охлаждения (АВО)"
-                  href="https://www.youtube.com/watch?v=2LcHb6tfkuo"
+                  href="https://www.youtube.com/embed/2LcHb6tfkuo"
                 />
                 <ModalComponent
                   name="Сепаратор"
-                  href="https://www.youtube.com/watch?v=ICNAcv7sSrU"
+                  href="https://www.youtube.com/embed/ICNAcv7sSrU"
                 />
                 <ModalComponent
                   name="Теплообменные аппараты"
-                  href="https://www.youtube.com/watch?v=lfz20_-J-Vo&t=1s"
+                  href="https://www.youtube.com/embed/lfz20_-J-Vo&t=1s"
                 />
                 <ModalComponent
                   name="Кожухотрубчатый холодильник"
-                  href=""
+                  href="https://www.youtube.com/embed/oBAFbACjr1o"
                 />
                 <ModalComponent
                   name="Адсорбер"
-                  href="https://www.youtube.com/watch?v=zip4jjgptCs"
+                  href="https://www.youtube.com/embed/zip4jjgptCs"
                 />
-              
+              </div>
                 </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -138,7 +141,18 @@ function Hydrotreating() {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4}>text</AccordionPanel>
+            <AccordionPanel pb={4}>
+            <div className="hydrotreating__modal">
+              <ModalComponent name='Правда или ложь' href='https://wordwall.net/ru/embed/ae746e14bc5b495297779fb7e866e157?themeId=48&templateId=35%22%20width=%22500%22%20height=%22380%22%20frameborder=%220%22%20allowfullscreen'/>
+              <ModalComponent name='Найди слова' href='https://wordwall.net/ru/embed/ff041e58354c4dff975a284f728e88bc?themeId=44&templateId=10%22%20width=%22500%22%20height=%22380%22%20frameborder=%220%22%20allowfullscreen'/>
+              <ModalComponent name='Назначение блоков' href='https://learningapps.org/watch?v=p2ts0hr4t21'/>
+            <a href="https://onlinetestpad.com/2wyebagof4os6" target="_blank" rel="noreferrer"><Button>Кроссворд</Button></a>
+            <a href="https://onlinetestpad.com/fbptycgep2bby" target="_blank" rel="noreferrer"><Button>Тест "Реакторный блок"</Button></a>
+            <a href="https://onlinetestpad.com/5yuhaqbv6pkpq" target="_blank" rel="noreferrer"><Button>Тест "Блок стабилизации"</Button></a>
+            <a href="https://onlinetestpad.com/icdxqfu6b34fw" target="_blank" rel="noreferrer"><Button>Тест "Блок регенерации МЭА"</Button></a>
+            <a href="https://onlinetestpad.com/5yuhaqbv6pkpq" target="_blank" rel="noreferrer"><Button>Тест "Блок очистки ВСГ"</Button></a>
+            </div>
+            </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <h2>

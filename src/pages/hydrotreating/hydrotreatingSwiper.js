@@ -21,7 +21,7 @@ import "swiper/scss/pagination";
 function hydrotreatingSwiper() {
   return (
     <Swiper
-    autoplay={{
+      autoplay={{
         delay: 2500,
         disableOnInteraction: false,
       }}
@@ -30,7 +30,7 @@ function hydrotreatingSwiper() {
       className="mySwiper"
     >
       <SwiperSlide>
-        <img  src={IMG1} alt="" />
+        <img src={IMG1} alt="" />
       </SwiperSlide>
       <SwiperSlide>
         <img src={IMG2} alt="" />
