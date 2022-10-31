@@ -1,0 +1,21 @@
+.navbar {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    left:  auto;
+    transform: translateX(50%);
+    position: fixed;
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+    justify-content: space-between;
+    background-color: #52527a;
+    color: #fff;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    a{
+        color:black;
+    }
+}
+

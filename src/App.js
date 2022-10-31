@@ -1,31 +1,35 @@
-import './App.scss';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
-import Normalize from 'react-normalize';
+import "./App.scss";
+import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
+import Normalize from "react-normalize";
 
-import Home from './pages/home'
-import Hydrotreating from './pages/hydrotreating'
-import Intro from './pages/intro'
+import Home from "./pages/home";
+import Hydrotreating from "./pages/hydrotreating/hydrotreating";
+import Intro from "./pages/intro/intro";
+import VT1 from "./pages/VT-1/vt1";
+import Tatorey from "./pages/tatorey/tatorey";
 
-import {Routes, Route} from 'react-router-dom'
-
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className='wrapper'>
-      <Normalize/>
-    <Navbar/>
-    <div className='content'> 
-    <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/hydrotreating" element={<Hydrotreating />} />
-        <Route path="/intro" element={<Intro />} />
-    </Routes>
-    </div>
-    <Footer/>
-    </div>
-  )
-
+    <>
+      <Normalize />
+      <div className="wrapper">
+        <Navbar />
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/hydrotreating" element={<Hydrotreating />} />
+            <Route path="/intro" element={<Intro />} />
+            <Route path="/tatorey" element={<Tatorey />} />
+            <Route path="/vt1" element={<VT1/>} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </>
+  );
 }
 
 export default App;
