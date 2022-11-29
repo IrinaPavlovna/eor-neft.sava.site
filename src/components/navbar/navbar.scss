@@ -1,20 +1,18 @@
-.navbar {
-    width: 100%;
-    z-index: 100;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left:  auto;
-    position: fixed;
+.Navbar {
     height: 50px;
-    justify-content: space-between;
     background-color: #52527a;
     color: #fff;
-    padding: 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    a{
-        color:black;
-    }
-}
+    padding: 10px;
+    align-items: center;
+    &-content {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
 
+        max-width: 1200px;
+        a {
+            color: black;
+        }
+    }
+
+}

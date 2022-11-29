@@ -1,31 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 //import { motion } from "framer-motion";
-import { Progress } from '@chakra-ui/react'
+import { Progress } from "@chakra-ui/react";
 import "./navbar.scss";
 
 import arrowSVG from "../../img/arrow.svg";
 
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-} from "@chakra-ui/react";
+import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 
-function Navbar() {
+function navbar() {
   return (
-    <Navbar
-      className="navbar"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      yoffset={100}
-      transition={{ duration: 0.5 }}
-    >
-      <div >
-      <Link style={{marginRight:'30px', color:'#fff'}} to="/">Главная</Link>
-      <Link style={{ color:'#fff'}} to="/introduction">Вводная часть</Link>
-      </div>
+    <div className="Navbar">
+      <div className="Navbar-content">
+      <Link style={{ marginRight: "30px", color: "#fff" }} to="/">
+        Главная
+      </Link>
       <Menu>
         <MenuButton
           px={4}
@@ -46,22 +35,22 @@ function Navbar() {
             />
           </div>
         </MenuButton>
-        <MenuList><Link to="/hydrotreating">
-          <MenuItem>
-            Гидроочистка
-          </MenuItem></Link>
+        <MenuList>
+          <Link to="/hydrotreating">
+            <MenuItem>Гидроочистка</MenuItem>
+          </Link>
           <Link to="/VT1">
-          <MenuItem>
-           ВТ-1
-          </MenuItem></Link>
-          <Link to="/Tatorey"> <MenuItem>
-            Таторей
-          </MenuItem></Link>
+            <MenuItem>ВТ-1</MenuItem>
+          </Link>
+          <Link to="/Tatorey">
+            <MenuItem>Таторей</MenuItem>
+          </Link>
         </MenuList>
       </Menu>
-      <Progress value={20} size='xs' colorScheme='pink' />
-    </Navbar>
+      {/* <Progress value={20} size="xs" colorScheme="pink" /> */}
+    </div>
+    </div>
   );
 }
 
-export default Navbar;
+export default navbar;
