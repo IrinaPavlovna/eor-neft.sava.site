@@ -7,8 +7,8 @@ import {
   AccordionPanel,
   AccordionIcon,
 } from "@chakra-ui/react";
-import HydrotreatingSwiper from "../hydrotreating/hydrotreatingSwiper";
-import ModalComponent from "../../components/ModalComponent/ModalComponent";
+import HydrotreatingSwiper from "../Hydrotreating/hydrotreatingSwiper";
+import ModalComponent from "../ModalComponent/ModalComponent";
 
 
 function tatorey() {

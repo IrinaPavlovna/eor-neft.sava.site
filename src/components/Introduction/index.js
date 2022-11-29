@@ -1,7 +1,7 @@
 import React from "react";
-import "./intro.scss";
+import "./introduction.scss";
 
-function intro() {
+function index() {
   return (
     <div className="intro__content">
       <h1>Аннотация</h1>
@@ -37,4 +37,4 @@ function intro() {
   );
 }
 
-export default intro;
+export default index;

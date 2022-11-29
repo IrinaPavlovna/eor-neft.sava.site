@@ -3,7 +3,7 @@ import "./hydrotreating.scss";
 import HydrotreatingSwiper from "./hydrotreatingSwiper";
 import HydrotreatingSwiperSchema from "./hydrotreatingSwiperSchema";
 
-import ModalComponent from "../../components/ModalComponent/ModalComponent";
+import ModalComponent from "../ModalComponent/ModalComponent";
 
 import {
   Accordion,

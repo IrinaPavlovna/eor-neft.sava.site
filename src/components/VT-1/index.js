@@ -1,6 +1,6 @@
 import React from "react";
 import "./vt-1.scss";
-import HydrotreatingSwiper from "../hydrotreating/hydrotreatingSwiper";
+import HydrotreatingSwiper from "../Hydrotreating/hydrotreatingSwiper";
 import {
   Accordion,
   AccordionItem,
@@ -9,7 +9,7 @@ import {
   AccordionIcon,
 } from "@chakra-ui/react";
 
-import ModalComponent from "../../components/ModalComponent/ModalComponent";
+import ModalComponent from "../ModalComponent/ModalComponent";
 
 
 function vt1() {
