@@ -13,15 +13,15 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-        <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/hydrotreating" element={<Hydrotreating />} />
-            <Route path="/introduction" element={<Introduction />} />
-            <Route path="/tatorey" element={<Tatorey />} />
-            <Route path="/vt1" element={<VT1/>} />
-          </Routes>
-        <Footer />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/hydrotreating" element={<Hydrotreating />} />
+        <Route path="/introduction" element={<Introduction />} />
+        <Route path="/tatorey" element={<Tatorey />} />
+        <Route path="/vt1" element={<VT1 />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

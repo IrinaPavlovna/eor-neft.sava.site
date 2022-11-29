@@ -31,6 +31,7 @@ function Hydrotreating() {
             </h2>
             <AccordionPanel pb={4}>
               <iframe
+                title='1'
                 style={{ width: "100%", height: "324px" }}
                 src="https://drive.google.com/file/d/1ZKewRhnRg2wSZ6Si7t_iljP48jL37f7X/preview"
               />
@@ -89,9 +90,9 @@ function Hydrotreating() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <div className="hydrotreating__modal">
-            Исходный материал <a href="https://www.youtube.com/channel/UCa_ybOhOWMpVmDVohW_9LGg" target="_blank" rel="noreferrer">ПроНПЗ</a>
-              <ModalComponent
+              <div className="hydrotreating__modal">
+                Исходный материал <a href="https://www.youtube.com/channel/UCa_ybOhOWMpVmDVohW_9LGg" target="_blank" rel="noreferrer">ПроНПЗ</a>
+                <ModalComponent
                   name="Ректификационная колонна"
                   href="https://www.youtube.com/embed/ODaN3yi1wl8"
                 />
@@ -132,7 +133,7 @@ function Hydrotreating() {
                   href="https://www.youtube.com/embed/zip4jjgptCs"
                 />
               </div>
-                </AccordionPanel>
+            </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <h2>
@@ -142,16 +143,16 @@ function Hydrotreating() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            <div className="hydrotreating__modal">
-              <ModalComponent name='Правда или ложь' href='https://wordwall.net/ru/embed/ae746e14bc5b495297779fb7e866e157?themeId=48&templateId=35%22%20width=%22500%22%20height=%22380%22%20frameborder=%220%22%20allowfullscreen'/>
-              <ModalComponent name='Найди слова' href='https://wordwall.net/ru/embed/ff041e58354c4dff975a284f728e88bc?themeId=44&templateId=10%22%20width=%22500%22%20height=%22380%22%20frameborder=%220%22%20allowfullscreen'/>
-              <ModalComponent name='Назначение блоков' href='https://learningapps.org/watch?v=p2ts0hr4t21'/>
-            <a href="https://onlinetestpad.com/2wyebagof4os6" target="_blank" rel="noreferrer"><Button>Кроссворд</Button></a>
-            <a href="https://onlinetestpad.com/fbptycgep2bby" target="_blank" rel="noreferrer"><Button>Тест "Реакторный блок"</Button></a>
-            <a href="https://onlinetestpad.com/5yuhaqbv6pkpq" target="_blank" rel="noreferrer"><Button>Тест "Блок стабилизации"</Button></a>
-            <a href="https://onlinetestpad.com/icdxqfu6b34fw" target="_blank" rel="noreferrer"><Button>Тест "Блок регенерации МЭА"</Button></a>
-            <a href="https://onlinetestpad.com/5yuhaqbv6pkpq" target="_blank" rel="noreferrer"><Button>Тест "Блок очистки ВСГ"</Button></a>
-            </div>
+              <div className="hydrotreating__modal">
+                <ModalComponent name='Правда или ложь' href='https://wordwall.net/ru/embed/ae746e14bc5b495297779fb7e866e157?themeId=48&templateId=35%22%20width=%22500%22%20height=%22380%22%20frameborder=%220%22%20allowfullscreen' />
+                <ModalComponent name='Найди слова' href='https://wordwall.net/ru/embed/ff041e58354c4dff975a284f728e88bc?themeId=44&templateId=10%22%20width=%22500%22%20height=%22380%22%20frameborder=%220%22%20allowfullscreen' />
+                <ModalComponent name='Назначение блоков' href='https://learningapps.org/watch?v=p2ts0hr4t21' />
+                <a href="https://onlinetestpad.com/2wyebagof4os6" target="_blank" rel="noreferrer"><Button>Кроссворд</Button></a>
+                <a href="https://onlinetestpad.com/fbptycgep2bby" target="_blank" rel="noreferrer"><Button>Тест "Реакторный блок"</Button></a>
+                <a href="https://onlinetestpad.com/5yuhaqbv6pkpq" target="_blank" rel="noreferrer"><Button>Тест "Блок стабилизации"</Button></a>
+                <a href="https://onlinetestpad.com/icdxqfu6b34fw" target="_blank" rel="noreferrer"><Button>Тест "Блок регенерации МЭА"</Button></a>
+                <a href="https://onlinetestpad.com/5yuhaqbv6pkpq" target="_blank" rel="noreferrer"><Button>Тест "Блок очистки ВСГ"</Button></a>
+              </div>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -162,7 +163,7 @@ function Hydrotreating() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <HydrotreatingSwiperSchema/>
+              <HydrotreatingSwiperSchema />
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
