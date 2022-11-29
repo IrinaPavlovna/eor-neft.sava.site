@@ -3,7 +3,7 @@ import "./introduction.scss";
 
 function index() {
   return (
-    <div className="intro__content" style={{marginBottom: '300px'}}>
+    <div className="intro__content">
       <h1>Аннотация</h1>
       <p>
         Электронный образовательный ресурс разработан по специальностям

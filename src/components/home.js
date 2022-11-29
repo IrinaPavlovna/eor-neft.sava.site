@@ -1,6 +1,6 @@
 import React from "react";
 import Introduction from './Introduction'
-
+import Tabs from './tabs'
 function home() {
   return (
     <div>
@@ -8,6 +8,8 @@ function home() {
       Электронный образовательный ресурс
     </h1>
     <Introduction/>
+    <Tabs/>
+    
     </div>
   );
 }

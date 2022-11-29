@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 //import { motion } from "framer-motion";
-import { Progress } from "@chakra-ui/react";
+// import { Progress } from "@chakra-ui/react";
+    // <Progress value={20} size="xs" colorScheme="pink" /> 
+
 import "./navbar.scss";
 
 import arrowSVG from "../../img/arrow.svg";
@@ -47,7 +49,6 @@ function navbar() {
           </Link>
         </MenuList>
       </Menu>
-      {/* <Progress value={20} size="xs" colorScheme="pink" /> */}
     </div>
     </div>
   );
