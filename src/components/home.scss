@@ -1,0 +1,15 @@
+.main {
+    &-content {
+        &>h1 {
+            text-align: center;
+            margin: 100px 0;
+        }
+
+        .main-img {
+            width: 100%;
+            object-fit: cover;
+            height: 400px;
+        }
+    }
+
+}
