@@ -6,21 +6,24 @@
     padding: 1px 30px 30px 30px;
 
 
-    &-desc{
+    &-desc {
         max-width: 600px;
         padding: 20px;
+
         h1 p {
             text-align: center;
-    
+
         }
-    
+
         p {
             margin-bottom: 30px;
         }
-        ul>li{
+
+        ul>li {
             list-style-type: none;
         }
     }
+
     &-video {
         height: 604px;
         display: flex;
@@ -28,29 +31,31 @@
         flex-direction: column;
         box-shadow: 16px 18px 8px 12px rgba(0, 0, 0, 0.3);
         position: relative;
-        .intro-help-block{
-            width:   534px;
-        background-color: #52527a;
-        border-radius: 24px;
-        
+
+        .intro-help-block {
+            width: 534px;
+            background-color: #52527a;
+            border-radius: 24px;
+
         }
+
         &-test {
             width: 300px;
             height: 150px;
         }
-    
-        iframe {
-        border-radius: 24px;
 
-            width:   534px;
+        iframe {
+            border-radius: 24px;
+
+            width: 534px;
             height: 300px;
         }
     }
 }
+
 @media (max-width: 920px) {
-    .intro{
+    .intro {
         flex-direction: column;
     }
-    
-}
 
+}
