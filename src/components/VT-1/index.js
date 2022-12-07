@@ -560,7 +560,7 @@ function vt1() {
                   конденсата из Е-40А и Е-41А контролируется поз.TJR-190/01 и
                   TJR-191/01 соответственно.
                 </p>
-                <table width="617" class="table-head">
+                <table width="617">
                   <tbody>
                     <tr>
                       <td width="167">
@@ -591,7 +591,7 @@ function vt1() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Ухудшение качества получаемых вакуумных дистиллятов
@@ -600,7 +600,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td rowspan="3" width="167">
+                      <td rowSpan="3" width="167">
                         <p>Норма фракционного состава:</p>
                         <p>ВД-1</p>
                         <p>Температура выкипания 5&nbsp;%, °С, не менее 360</p>
@@ -668,7 +668,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td rowspan="2" width="167">
+                      <td rowSpan="2" width="167">
                         <p>Норма вязкости кинематической при 100&nbsp;°С, с:</p>
                         <p>ВД-1 не менее 3,5</p>
                         <p>ВД-2 не менее 5,5</p>
@@ -722,14 +722,14 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>Ухудшение качества гудрона</strong>
                         </p>
                       </td>
                     </tr>
                     <tr>
-                      <td rowspan="2" width="167">
+                      <td rowSpan="2" width="167">
                         <p>Норма вязкости условной при 80&nbsp;°С,</p>
                         <p>не менее 25&nbsp;с.</p>
                       </td>
@@ -761,7 +761,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Ухудшение качества компонента диз.топлива
@@ -770,7 +770,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td rowspan="2" width="167">
+                      <td rowSpan="2" width="167">
                         <p>Норма фракционного состава:</p>
                         <p>
                           Температура выкипания 5&nbsp;%, °С, не более
@@ -802,7 +802,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Появление нефтепродукта в питательной воде из Д-01,
@@ -830,7 +830,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Загрязнение нефтепродуктами системы горячей воды
@@ -893,14 +893,14 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>Ухудшение качества гудрона</strong>
                         </p>
                       </td>
                     </tr>
                     <tr>
-                      <td rowspan="2" width="167">
+                      <td rowSpan="2" width="167">
                         <p>Норма вязкости условной при 80&nbsp;°С,</p>
                         <p>не менее 25&nbsp;с.</p>
                       </td>
@@ -932,7 +932,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Ухудшение качества компонента диз.топлива
@@ -941,7 +941,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td rowspan="2" width="167">
+                      <td rowSpan="2" width="167">
                         <p>Норма фракционного состава:</p>
                         <p>
                           Температура выкипания 5&nbsp;%, °С, не более
@@ -973,7 +973,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Появление нефтепродукта в питательной воде из Д-01,
@@ -1001,7 +1001,7 @@ function vt1() {
                       </td>
                     </tr>
                     <tr>
-                      <td colspan="3" width="617">
+                      <td colSpan="3" width="617">
                         <p>
                           <strong>
                             Загрязнение нефтепродуктами системы горячей воды
