@@ -41,6 +41,9 @@
     width: 99.1vw;
     height: 100vh;
 }
+@media (max-width: 900px) {
+    .swiper {width: 96.1vw;}
+}
 
 .swiper-slide {
     text-align: center;
