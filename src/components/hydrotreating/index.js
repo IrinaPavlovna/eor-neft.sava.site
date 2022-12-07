@@ -17,7 +17,6 @@ import {
 function Hydrotreating() {
   return (
     <div className="hydrotreating">
-
       <div className="hydrotreating__content">
         <h1>Гидроочистка №2</h1>
 
@@ -295,7 +294,6 @@ function Hydrotreating() {
         </Accordion>
       </div>
       <HydrotreatingSwiper />
-
     </div>
   );
 }

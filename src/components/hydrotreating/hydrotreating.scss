@@ -1,7 +1,7 @@
 .hydrotreating {
     border-radius: 15px;
     text-align: center;
-position: relative;
+    position: relative;
 
 
     &__content {
@@ -9,10 +9,11 @@ position: relative;
         z-index: 10;
         background-color: #52527a;
         transform: translate(-50%, 50%);
-        left:50%;
+        left: 50%;
         width: 1200;
-        &>h1{
-            top:0;
+
+        &>h1 {
+            top: 0;
         }
     }
 
