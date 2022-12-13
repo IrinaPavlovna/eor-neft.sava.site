@@ -13,7 +13,7 @@ import ModalComponent from "../ModalComponent/ModalComponent";
 function tatorey() {
   return (
     <div className="tatorey">
-      <div className="tatorey__content">
+      <div className="content">
         <h1>Таторей</h1>
 
         <Accordion allowToggle width="100%">

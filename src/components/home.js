@@ -12,6 +12,7 @@ function home() {
         <h1>
           <strong>Электронный образовательный ресурс</strong>
         </h1>
+        <p><strong>По специальностям "Оператор технологических установок", "Слесарь по ремонту технологических установок"</strong></p>
         <img src={mainIMG} alt="" className="main-img" />
         {/* <img src={main1PNG} alt="" className="main-img" /> */}
         <Introduction />

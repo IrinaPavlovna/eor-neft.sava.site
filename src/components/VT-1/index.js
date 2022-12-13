@@ -14,7 +14,7 @@ import ModalComponent from "../ModalComponent/ModalComponent";
 function vt1() {
   return (
     <div className="vt1">
-      <div className="vt1__content">
+      <div className="content">
         <h1>ВТ-1</h1>
         <Accordion allowToggle width="100%">
           <AccordionItem>

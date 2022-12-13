@@ -17,7 +17,7 @@ import {
 function Hydrotreating() {
   return (
     <div className="hydrotreating">
-      <div className="hydrotreating__content">
+      <div className="content">
         <h1>Гидроочистка №2</h1>
 
         <Accordion allowToggle width="100%">
