@@ -41,6 +41,7 @@ section {
     scroll-snap-align: center;
 
 }
+
 //scroll home
 #section07 span {
     position: absolute;
@@ -62,14 +63,12 @@ section {
 #section07 span:nth-of-type(1) {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
-
 }
 
 #section07 span:nth-of-type(2) {
-    bottom:-16px;
+    bottom: -16px;
     -webkit-animation-delay: .15s;
     animation-delay: .15s;
-
 }
 
 #section07 span:nth-of-type(3) {
