@@ -8,28 +8,28 @@ import Footer from '../components/Footer'
 function tabs() {
   return (
     <>
-    <Tabs isFitted variant="enclosed" style={{position:'relative'}}>
-      <TabList mb="1em" style={{position:'absolute', zIndex:'100'}}>
-        <Tab>Гидроочистка</Tab>
-        <Tab>ВТ-1</Tab>
-        <Tab>Таторей</Tab>
-      </TabList>
-      <TabPanels >
-        <TabPanel style={{padding: '0'}}>
-          <Hydrotreating />
+      <Tabs isFitted variant="enclosed" style={{ position: 'relative' }}>
+        <TabList mb="1em" style={{ position: 'absolute', zIndex: '100' }}>
+          <Tab>Гидроочистка</Tab>
+          <Tab>ВТ-1</Tab>
+          <Tab>Таторей</Tab>
+        </TabList>
+        <TabPanels >
+          <TabPanel style={{ padding: '0' }}>
+            <Hydrotreating />
 
-        </TabPanel>
-        <TabPanel style={{padding: '0'}}>
-          <VT1 />
-        </TabPanel>
-        <TabPanel style={{padding: '0'}}>
-          <Tatorey />
-        </TabPanel>
+          </TabPanel>
+          <TabPanel style={{ padding: '0' }}>
+            <VT1 />
+          </TabPanel>
+          <TabPanel style={{ padding: '0' }}>
+            <Tatorey />
+          </TabPanel>
 
-      </TabPanels>
-      <Footer/>
+        </TabPanels>
+        <Footer />
 
-    </Tabs>
+      </Tabs>
 
     </>
   );

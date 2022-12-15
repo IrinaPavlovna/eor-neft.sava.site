@@ -6,57 +6,58 @@
     margin: 30px auto 0;
     padding: 1px 30px 30px 30px;
 
-    &-center{
+    &-center {
         display: flex;
         justify-content: center;
         margin: 0 auto;
         max-width: 1200px;
-    &-desc {
-        max-width: 600px;
-        padding: 20px;
 
-        h1 p {
-            text-align: center;
+        &-desc {
+            max-width: 600px;
+            padding: 20px;
 
+            h1 p {
+                text-align: center;
+
+            }
+
+            p {
+                margin-bottom: 30px;
+            }
+
+            ul>li {
+                list-style-type: none;
+            }
         }
+        &-video {
 
-        p {
-            margin-bottom: 30px;
-        }
-
-        ul>li {
-            list-style-type: none;
-        }
-    }
-
-    &-video {
-        height: 604px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        box-shadow: 16px 18px 8px 12px rgba(0, 0, 0, 0.3);
-        position: relative;
-
-        .intro-help-block {
-            width: 534px;
+            height: 604px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 16px 18px 8px 12px rgba(0, 0, 0, 0.3);
+            position: relative;
             background-color: #52527a;
-            border-radius: 24px;
 
-        }
-
-        &-test {
-            width: 300px;
-            height: 150px;
-        }
-
-        iframe {
-            border-radius: 24px;
-
-            max-width: 534px;
-            height: 300px;
-        }
+    
+            .intro-help-block {
+                width: 534px;
+                border-radius: 24px;
+    
+            }
+    
+            &-test {
+                width: 300px;
+                height: 150px;
+            }
+    
+            iframe {
+                border-radius: 24px;
+    
+                max-width: 534px;
+                height: 300px;
+            }}
     }
-}
 }
 
 @media (max-width: 920px) {
@@ -65,6 +66,7 @@
     }
 
 }
+
 .custom-shape-divider-top-1671100056 {
     position: absolute;
     top: 0;
@@ -73,7 +75,12 @@
     overflow: hidden;
     line-height: 0;
     top: -30px;
+
+    &>svg>path {
+        fill: #52527a;
+    }
 }
+
 .custom-shape-divider-top-1671100057 {
     position: absolute;
     transform: rotate(180deg);
@@ -83,4 +90,8 @@
     overflow: hidden;
     line-height: 0;
     top: -30px;
+
+    &>svg>path {
+        fill: #52527a;
+    }
 }

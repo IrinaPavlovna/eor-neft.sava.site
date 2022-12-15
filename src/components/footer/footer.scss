@@ -1,5 +1,9 @@
 .Footer{
     background-color: #52527a;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    width: 99.14vw;
     &-content{
         max-width: 1200px;
     color:#fff;

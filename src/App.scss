@@ -1,15 +1,22 @@
-.content{
-        width: 90vw;
-        max-height: 90vh;
-        position: absolute;
-        z-index: 10;
-        background-color: #52527a;
-        border-radius: 15px;
-        color:#fff;
-        transform: translate(-50%, 10%);
-        left: 50%;
+.content {
+    width: 90vw;
+    max-height: 90vh;
+    position: absolute;
+    z-index: 10;
+    background-color: #52527a;
+    border-radius: 15px;
+    color: #fff;
+    transform: translate(-50%, 10%);
+    left: 50%;
 
-        &>h1 {
-            top: 0;
-        }
+    &>h1 {
+        top: 0;
+    }
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

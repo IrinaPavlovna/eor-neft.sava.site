@@ -3,7 +3,6 @@
     text-align: center;
     position: relative;
 
-
     &__content {
         position: absolute;
         z-index: 10;
@@ -41,8 +40,11 @@
     width: 99.1vw;
     height: 100vh;
 }
+
 @media (max-width: 900px) {
-    .swiper {width: 96.1vw;}
+    .swiper {
+        width: 96.1vw;
+    }
 }
 
 .swiper-slide {
