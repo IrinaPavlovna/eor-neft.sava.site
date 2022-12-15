@@ -1,11 +1,16 @@
 .intro {
     display: flex;
-    max-width: 1200px;
+    position: relative;
+    align-items: center;
     height: 100vh;
     margin: 30px auto 0;
     padding: 1px 30px 30px 30px;
 
-
+    &-center{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1200px;
     &-desc {
         max-width: 600px;
         padding: 20px;
@@ -52,10 +57,30 @@
         }
     }
 }
+}
 
 @media (max-width: 920px) {
     .intro {
         flex-direction: column;
     }
 
+}
+.custom-shape-divider-top-1671100056 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    top: -30px;
+}
+.custom-shape-divider-top-1671100057 {
+    position: absolute;
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    top: -30px;
 }

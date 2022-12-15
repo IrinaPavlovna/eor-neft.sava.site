@@ -4,7 +4,13 @@ import "./introduction.scss";
 function index() {
   return (
     <div className="intro">
-      <div className="intro-desc">
+      <div class="custom-shape-divider-top-1671100056">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div>
+<div className="intro-center">
+      <div className="intro-center-desc">
         <h1>Аннотация</h1>
         <ul>
           <li>
@@ -32,7 +38,7 @@ function index() {
           </li>
         </ul>
       </div>
-      <div className="intro-video">
+      <div className="intro-center-video">
         <iframe
           className="intro-video1"
           controls
@@ -53,6 +59,12 @@ function index() {
         {/* <div className="intro__video-test">Загрузка відео</div> */}
         {/* <div className="intro__video-test">Загрузка відео</div> */}
       </div>
+      </div>
+      <div class="custom-shape-divider-top-1671100057">
+    <svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+    </svg>
+</div>
     </div>
   );
 }

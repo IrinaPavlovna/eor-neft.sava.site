@@ -9,14 +9,25 @@ function home() {
   return (
     <div className="main">
       <div className="main-content">
-        <h1>
-          <strong>Электронный образовательный ресурс</strong>
-        </h1>
-        <p><strong>По специальностям "Оператор технологических установок", "Слесарь по ремонту технологических установок"</strong></p>
-        <img src={mainIMG} alt="" className="main-img" />
-        {/* <img src={main1PNG} alt="" className="main-img" /> */}
-        <Introduction />
-        <Tabs />
+        <section>
+          <h1>
+            <strong className="main-h1">Электронный образовательный ресурс</strong>
+          </h1>
+          <p>
+            <strong className="main-p">
+              По специальностям "Оператор технологических установок", "Слесарь
+              по ремонту технологических установок"
+            </strong>
+          </p>
+          <img src={mainIMG} alt="" className="main-img" />
+          {/* <img src={main1PNG} alt="" className="main-img" /> */}
+        </section>
+        <section>
+          <Introduction />
+        </section>
+        <section>
+          <Tabs />
+        </section>
       </div>
     </div>
   );
