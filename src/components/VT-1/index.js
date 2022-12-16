@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 
 import ModalComponent from "../ModalComponent/ModalComponent";
+import Test from '../Test'
 
 function vt1() {
   return (
@@ -1063,6 +1064,22 @@ function vt1() {
                 />
               </div>
             </AccordionPanel>
+
+
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
+                Тест
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+            <Test />
+
+            </AccordionPanel>
+
+
           </AccordionItem>
         </Accordion>
       </div>

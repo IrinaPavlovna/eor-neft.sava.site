@@ -29,34 +29,41 @@
                 list-style-type: none;
             }
         }
+
         &-video {
 
             height: 604px;
             display: flex;
             justify-content: center;
             flex-direction: column;
-            box-shadow: 16px 18px 8px 12px rgba(0, 0, 0, 0.3);
             position: relative;
-            background-color: #52527a;
+            gap: 10px;
 
-    
+
             .intro-help-block {
+                position: absolute;
+                bottom: -10px;
+                right: -10px;
+                z-index: -1;
+                height: 604px;
                 width: 534px;
                 border-radius: 24px;
-    
+                background-color: #52527a;
+                box-shadow: 16px 18px 8px 12px rgb(0 0 0 / 30%);
             }
-    
+
             &-test {
                 width: 300px;
                 height: 150px;
             }
-    
+
             iframe {
                 border-radius: 24px;
-    
-                max-width: 534px;
+
+                width: 534px;
                 height: 300px;
-            }}
+            }
+        }
     }
 }
 

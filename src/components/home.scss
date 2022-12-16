@@ -50,8 +50,8 @@ section {
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb07 2s infinite;
@@ -63,6 +63,7 @@ section {
 #section07 span:nth-of-type(1) {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
+    bottom: -46px;
 }
 
 #section07 span:nth-of-type(2) {

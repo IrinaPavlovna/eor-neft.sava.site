@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import HydrotreatingSwiper from "../Hydrotreating/hydrotreatingSwiper";
 import ModalComponent from "../ModalComponent/ModalComponent";
+import Test from "../Test";
 
 function tatorey() {
   return (
@@ -1145,6 +1146,17 @@ function tatorey() {
                 name="Схема технологического процесса"
                 href="https://drive.google.com/file/d/13hiwCDLyACP42Vmr-sQ69zbm_-JcKYgQ/preview"
               />
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
+                Тест
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+<Test/>
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
