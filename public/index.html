@@ -11,6 +11,9 @@
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+  <link rel="stylesheet" href="/letsee/letsee.css"/>
+<script src="/letsee/letsee.js"></script>
+
   <title>ЭОР</title>
 </head>
 
@@ -53,8 +56,14 @@
     <span class="loadingText" style="display:block;transform: translateY(75px);text-align: left;">Загрузка...</span>
   </div>
 </div>
-
-<div id="root" style="opacity: 0"></div>
+<!-- <a href="javascript://" onclick="letsee_toggle_panel()">Версия для слабовидящих</a> -->
+<div id="root" style="opacity: 0">
+  </div>
 </body>
-
+<script>
+  letsee_custom_css = {
+      enabled: '#enable_letsee { display: none; }',
+      images_hidden: '#slideshow { display: none; }'
+  }
+</script>
 </html>

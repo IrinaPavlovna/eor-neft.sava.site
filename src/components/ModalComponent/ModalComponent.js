@@ -24,7 +24,7 @@ function ModalComponent(props) {
 
   return (
     <>
-    <Button onClick={onOpen}>{props.name}</Button>
+    <Button color='#000' onClick={onOpen}>{props.name}</Button>
     <Modal
       size={ props.full ? 'full' : '4xl'}
       onClose={onClose}

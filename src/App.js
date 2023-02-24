@@ -5,6 +5,7 @@ import Hydrotreating from "./components/Hydrotreating";
 import Introduction from "./components/Introduction";
 import VT1 from "./components/VT-1";
 import Tatorey from "./components/Tatorey";
+import Interactivediagrams from "./components/interactivediagrams/App";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -13,6 +14,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/interactivediagrams" element={<Interactivediagrams />} />
         <Route path="/hydrotreating" element={<Hydrotreating />} />
         <Route path="/introduction" element={<Introduction />} />
         <Route path="/tatorey" element={<Tatorey />} />

@@ -67,19 +67,11 @@ function Hydrotreating() {
                 />
                 <ModalComponent
                   name="Инструкция по охране труда"
+                  text
                   href="https://b5d563f9-6a46-407d-a9d0-fa6b1884ba9d.filesusr.com/ugd/c699d4_852f6790f9814894a7e8c26d452fe861.pdf"
                 />
               </div>
             </AccordionPanel>
-          </AccordionItem>
-          <AccordionItem>
-            <h2>
-              <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
-                Практический раздел
-                <AccordionIcon />
-              </AccordionButton>
-            </h2>
-            <AccordionPanel pb={4}>text</AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <h2>
@@ -167,35 +159,35 @@ function Hydrotreating() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>Кроссворд</Button>
+                  <Button color="#000">Кроссворд</Button>
                 </a>
                 <a
                   href="https://onlinetestpad.com/fbptycgep2bby"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>Тест "Реакторный блок"</Button>
+                  <Button color="#000">Тест "Реакторный блок"</Button>
                 </a>
                 <a
                   href="https://onlinetestpad.com/5yuhaqbv6pkpq"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>Тест "Блок стабилизации"</Button>
+                  <Button color="#000">Тест "Блок стабилизации"</Button>
                 </a>
                 <a
                   href="https://onlinetestpad.com/icdxqfu6b34fw"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>Тест "Блок регенерации МЭА"</Button>
+                  <Button color="#000">Тест "Блок регенерации МЭА"</Button>
                 </a>
                 <a
                   href="https://onlinetestpad.com/5yuhaqbv6pkpq"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Button>Тест "Блок очистки ВСГ"</Button>
+                  <Button color="#000">Тест "Блок очистки ВСГ"</Button>
                 </a>
               </div>
             </AccordionPanel>

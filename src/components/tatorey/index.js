@@ -26,6 +26,7 @@ function tatorey() {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
+              <div className="tatorey__modal">
               <h3>НАЗНАЧЕНИЕ УСТАНОВКИ</h3>
               <p>
                 “ТАТОРЕЙ”– каталитический процесс трансалкилирования
@@ -1118,6 +1119,7 @@ function tatorey() {
               <h3>ЗАГРУЗКА КАТАЛИЗАТОРА</h3>
               <img src="img/tatorei1.afea12f2.jpg" alt="" />
               <img src="img/tatorei2.2197594e.png" alt="" />
+              </div>
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
