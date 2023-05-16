@@ -1067,7 +1067,7 @@ function vt1() {
 
 
           </AccordionItem>
-          <AccordionItem>
+          {/* <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
                 Тест
@@ -1080,7 +1080,7 @@ function vt1() {
             </AccordionPanel>
 
 
-          </AccordionItem>
+          </AccordionItem> */}
         </Accordion>
       </div>
       <HydrotreatingSwiper />

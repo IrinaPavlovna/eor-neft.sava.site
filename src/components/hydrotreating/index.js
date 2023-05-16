@@ -192,7 +192,7 @@ function Hydrotreating() {
               </div>
             </AccordionPanel>
           </AccordionItem>
-          <AccordionItem>
+          {/* <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
                 Схемы установки
@@ -202,7 +202,7 @@ function Hydrotreating() {
             <AccordionPanel pb={4}>
               <HydrotreatingSwiperSchema />
             </AccordionPanel>
-          </AccordionItem>
+          </AccordionItem> */}
           <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>

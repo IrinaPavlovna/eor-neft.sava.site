@@ -1150,7 +1150,7 @@ function tatorey() {
               />
             </AccordionPanel>
           </AccordionItem>
-          <AccordionItem>
+          {/* <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
                 Тест
@@ -1160,7 +1160,7 @@ function tatorey() {
             <AccordionPanel pb={4}>
 <Test/>
             </AccordionPanel>
-          </AccordionItem>
+          </AccordionItem> */}
         </Accordion>
       </div>
       <HydrotreatingSwiper />
