@@ -1,6 +1,6 @@
 import React from "react";
 import "./vt-1.scss";
-import HydrotreatingSwiper from "../Hydrotreating/hydrotreatingSwiper";
+import HydrotreatingSwiper from "../hydrotreating/hydrotreatingSwiper";
 import {
   Accordion,
   AccordionItem,
@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 
 import ModalComponent from "../ModalComponent/ModalComponent";
-import Test from '../Test'
+import Test from "../Test";
 
 function vt1() {
   return (
@@ -1064,8 +1064,6 @@ function vt1() {
                 />
               </div>
             </AccordionPanel>
-
-
           </AccordionItem>
           {/* <AccordionItem>
             <h2>

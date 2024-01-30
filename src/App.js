@@ -1,10 +1,10 @@
 import "./App.scss";
 
 import Home from "./components/home";
-import Hydrotreating from "./components/Hydrotreating";
+import Hydrotreating from "./components/hydrotreating";
 import Introduction from "./components/Introduction";
 import VT1 from "./components/VT-1";
-import Tatorey from "./components/Tatorey";
+import Tatorey from "./components/tatorey";
 import Interactivediagrams from "./components/interactivediagrams/App";
 
 import { Routes, Route } from "react-router-dom";

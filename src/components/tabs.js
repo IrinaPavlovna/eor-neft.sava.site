@@ -1,9 +1,9 @@
 import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
-import Tatorey from "./Tatorey";
-import VT1 from "../components/VT-1";
-import Hydrotreating from "./Hydrotreating";
-import Footer from "../components/Footer";
+import Tatorey from "./tatorey";
+import VT1 from "./VT-1";
+import Hydrotreating from "./hydrotreating";
+import Footer from "./footer";
 
 function tabs() {
   return (

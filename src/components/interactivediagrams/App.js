@@ -1,8 +1,8 @@
 import "./App.scss";
-import backImages1 from "./img/backImages1.png";
 import backImages2 from "./img/backImages2.png";
 import backImages3 from "./img/backImages3.png";
 import backImages4 from "./img/backImages4.png";
+import backImages1 from "./img/backImages1.png";
 import MyModal from "./components/Modal/MyModal";
 import React, { useRef } from "react";
 import ActiveModal from "./components/ActiveModal";
