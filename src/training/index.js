@@ -1,6 +1,6 @@
 import React from "react";
 import "./introduction.scss";
-import mainIMG from "../img/mainImg.png";
+import mainIMG from "../img/trainingPump.jpg";
 
 // import backImages1 from "../img/backImages1.png";
 import MyModal from "../components/interactivediagrams/components/Modal/MyModal";
@@ -24,17 +24,21 @@ function index() {
       </div>
       <div className="intro-training-center">
         <div className="intro-training-center-desc">
-          Тренажер
-          <MyModal src="https://nasos-training.vercel.app/">
+          Тренажер по ремонту центробежного насоса
+          <MyModal src="https://nasos-training.vercel.app/" Training={true}>
             <div
               style={{
-                width: "auto",
+                width: "30%",
                 height: "auto",
                 textAlign: "center",
-                border: "1px solid",
+                border: "1px solid #000",
                 borderRadius: "5px",
+                margin: "0 auto",
+                fontSize: "16px",
+                WebkitTextStroke: "initial",
+                backgroundColor: "#52527a",
               }}
-              className="backcontainer"
+              className=" backcontainer"
             >
               Oткрыть
             </div>

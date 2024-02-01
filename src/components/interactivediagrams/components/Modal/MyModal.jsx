@@ -7,15 +7,17 @@ import {
   ModalBody,
   ModalCloseButton,
   useDisclosure,
-  Button
+  Button,
 } from "@chakra-ui/react";
-import '../dropdown/dropdown.scss'
+import "../dropdown/dropdown.scss";
 
 function MyModal(props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <div  className={props.classname} onClick={onOpen}>{props.children}</div>
+      <div className={props.classname} onClick={onOpen}>
+        {props.children}
+      </div>
 
       <Modal isOpen={isOpen} onClose={onClose} size="full">
         <ModalOverlay />
@@ -23,7 +25,11 @@ function MyModal(props) {
           <ModalHeader>{props.text}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <iframe src={props.src} style={{ width: "100%", height: "84vh" }} />
+            <iframe
+              src={props.src}
+              style={{ width: "100%", height: "84vh" }}
+              className={props.Training && "backcontainer-training"}
+            />
           </ModalBody>
 
           <ModalFooter>
