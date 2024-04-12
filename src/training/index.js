@@ -42,7 +42,27 @@ function index() {
             >
               Oткрыть
             </div>
+           
           </MyModal>
+          <a href='https://drive.google.com/file/d/1tnf8IsrwsIWR66v0cBfFZlDaZQ9WkLn0/preview' target="_blank">
+          <div
+              style={{
+                width: "30%",
+                height: "auto",
+                textAlign: "center",
+                border: "1px solid #000",
+                borderRadius: "5px",
+                margin: "0 auto",
+                fontSize: "16px",
+                WebkitTextStroke: "initial",
+                backgroundColor: "#52527a",
+              }}
+              className=" backcontainer"
+            >
+              Установить!
+              </div>
+            </a>
+
           {/* <iframe
             src="https://nasos-training.vercel.app/"
             style={{

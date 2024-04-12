@@ -19,7 +19,7 @@ function Hydrotreating() {
     <div className="hydrotreating">
       <div className="content">
         <h1>Гидроочистка №2</h1>
-
+        
         <Accordion allowToggle width="100%">
           <AccordionItem>
             <h2>
@@ -34,6 +34,21 @@ function Hydrotreating() {
                 style={{ width: "100%", height: "324px" }}
                 src="https://drive.google.com/file/d/1ZKewRhnRg2wSZ6Si7t_iljP48jL37f7X/preview"
               />
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
+              Гид по установке «Гидроочистка»
+
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+                              <ModalComponent
+                  name="Гид по установке «Гидроочистка»"
+                  href="https://drive.google.com/file/d/1Dx_Ox_WOYf-IMRLTEZhaFnMkwR-ifQ9x/preview"
+                />
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
@@ -242,8 +257,8 @@ function Hydrotreating() {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4}>
-              <div className="hydrotreating__modal">
+            <AccordionPanel pb={4} className='hydrotreating__scroll'>
+              <div className="hydrotreating__modal ">
                 <ModalComponent
                   name="Печь цилидрическая"
                   href="https://drive.google.com/file/d/1hgeZxgEQshk63jjxY72AAzEdTRBMsE_t/preview"
@@ -279,6 +294,18 @@ function Hydrotreating() {
                 <ModalComponent
                   name=" Подготовка и пуск центробежного насоса"
                   href="https://www.youtube.com/embed/4qDRSilSNEM"
+                />
+                <ModalComponent
+                  name="Блок очистки ВСГ"
+                  href="https://drive.google.com/file/d/13G8tfQQjvqj1tR6FiwqWsAUSpDspmqdI/preview"
+                />
+                <ModalComponent
+                  name="Блок регенерации МЭА"
+                  href="https://drive.google.com/file/d/1OilvEMB3QaU7m7viPo2iqrWV9nv6Qt6Y/preview"
+                />
+                <ModalComponent
+                  name="Реакторный блок"
+                  href="https://drive.google.com/file/d/1D4rB1Jx3ih7j-daUTYu-HmJ2L-HfpBme/preview"
                 />
               </div>
             </AccordionPanel>

@@ -5,7 +5,9 @@ function index() {
   return (
     <div className="Footer">
       <div className="Footer-content">
-        Copyright @ {new Date().getFullYear()} All rights reserved |
+        <p style={{opacity:0.1}}>
+      Некоторые видеоматериалы взяты из открытых источников
+        </p>
         <a
           href="https://github.com/YuriAndreevich"
           target="_blank"

@@ -2,7 +2,12 @@
     border-radius: 15px;
     text-align: center;
     position: relative;
-
+&__scroll{
+    overflow: scroll;
+    display: block;
+    opacity: 1;
+    max-height: 384px;
+}
     &__content {
         position: absolute;
         z-index: 10;
