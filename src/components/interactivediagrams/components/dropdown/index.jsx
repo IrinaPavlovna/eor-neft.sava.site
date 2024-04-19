@@ -22,25 +22,25 @@ function Dropdown() {
                   classname="menuitem"
                   src="https://view.genial.ly/625ea251d05c83001818866b/"
                 >
-                  <a>Блок регенерации МЭА</a>
+                  <a>Анимационная схема блока регенерации МЭА</a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
                   src="https://view.genial.ly/625ea29d271fd60011653002/"
                 >
-                  <a>Блок очистки ВСГ</a>
+                  <a>Анимационная схема блока очистки ВСГ</a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
                   src="https://view.genial.ly/625ea2a0bf830200180763c0/"
                 >
-                  <a>Блок стабилизации </a>
+                  <a> Анимационная схема блока стабилизации </a>
                 </MyModal>
                 <MyModal
                   classname="menuitem"
                   src="https://view.genial.ly/62432a8d9bdb220018f33271/"
                 >
-                  <a>Реакторный блок</a>
+                  <a> Анимационная схема реакторного блок</a>
                 </MyModal>
               </menu>
             </div>

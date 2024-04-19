@@ -24,7 +24,7 @@ function Hydrotreating() {
           <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "#52527a;", color: "white" }}>
-                Видео сюжет
+                Видеосюжет
                 <AccordionIcon />
               </AccordionButton>
             </h2>
@@ -296,16 +296,36 @@ function Hydrotreating() {
                   href="https://www.youtube.com/embed/4qDRSilSNEM"
                 />
                 <ModalComponent
-                  name="Блок очистки ВСГ"
+                  name="Анимационная схема блока очистки ВСГ"
                   href="https://drive.google.com/file/d/13G8tfQQjvqj1tR6FiwqWsAUSpDspmqdI/preview"
                 />
                 <ModalComponent
-                  name="Блок регенерации МЭА"
+                  name="Анимационная схема блока регенерации МЭА"
                   href="https://drive.google.com/file/d/1OilvEMB3QaU7m7viPo2iqrWV9nv6Qt6Y/preview"
                 />
                 <ModalComponent
-                  name="Реакторный блок"
+                  name="Анимационная схема реакторного блокa"
                   href="https://drive.google.com/file/d/1D4rB1Jx3ih7j-daUTYu-HmJ2L-HfpBme/preview"
+                />
+                <ModalComponent
+                  name="Колонна К-1"
+                  href="https://drive.google.com/file/d/1jQp-gHroIpfOplINkMpWzJg7GyvxspNt/preview"
+                />
+                  <ModalComponent
+                  name="3D схема блока очистки ВСГ"
+                  href="https://drive.google.com/file/d/1Wn0-8_Yzs8KsvBQwvj6RKRAgBhdXOV0x/preview"
+                />
+                  <ModalComponent
+                  name="3D схема блока регенерации МЭА"
+                  href="https://drive.google.com/file/d/1AZ6H3usVN6ospRKTu6dvJ4yGZJB3Y5q-/preview"
+                />
+                <ModalComponent
+                  name="3D схема реакторного блока"
+                  href="https://drive.google.com/file/d/17BrHw2KW3ErlFXlfX27xoG2RUd3nWIj_/preview"
+                />
+                  <ModalComponent
+                  name="Реактор"
+                  href="https://drive.google.com/file/d/13aqH_vsPh_HrlCX2tId0MSnIA6o__VHL/preview"
                 />
               </div>
             </AccordionPanel>

@@ -6,7 +6,7 @@ function index() {
     <div className="Footer">
       <div className="Footer-content">
         <p style={{opacity:0.1}}>
-      Некоторые видеоматериалы взяты из открытых источников
+      Материалы вспомогательного раздела взяты из открытых источников
         </p>
         <a
           href="https://github.com/YuriAndreevich"
